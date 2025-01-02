@@ -327,3 +327,13 @@ span {
     opacity: 1;
   }
   }
+
+  b {
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-size: calc(2em + (150px / 10) * 0.7);
+    padding-top: 20px;
+    color: #fff;
+  }
