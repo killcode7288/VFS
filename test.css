@@ -256,84 +256,83 @@ span {
     .container-full{
     width: 400px;
     height: 400px;
-}
+    }
 
-.content{
-    width: 400px;
-    height: 300px;
-}
-
-.backgroundImage {
-  position: absolute;
-  width: 400px;
-}
-.boyImage {
-  position: absolute;
-  width: 400px;
-  z-index: 2;
-  animation: 200s linear infinite blur;
-}
-.content {
-  border-radius: 40px;
-  animation: 200s linear infinite brightness;
-}
-
-.container-full,
-.face {
-  align-items: center;
-  overflow: hidden;
-}
-.container-full {
-  margin: 0;
-  justify-content: center;
-  transform: scale(1);
-  animation: 200s linear infinite zoom-in;
-}
-.cube,
-.face {
-  width: 870px;
-  height: 190px;
-}
-.cube {
-  position: relative;
-  transform-style: preserve-3d;
-  perspective: 480px;
-  transform-style: preserve-3d;
-  perspective-origin: 51% 70%;
-}
-.face,
-.hue {
-  position: absolute;
-}
-.face {
-  background: 0 0;
-  border: 0 solid #000;
-  opacity: 0.5;
-}
-.bottom,
-.top {
-  width: 870px;
-  height: 870px;
-}
-.hue {
-    top: 0;
-    left: 0;
-    z-index: 3;
-    width: 400px;
-    height: 320px;
-    mix-blend-mode: overlay;
-    background: #1e5799;
-    background: radial-gradient(ellipse at center, #1e5799 0, #7db9e8 100%);
-    opacity: 1;
-  }
+  .content{
+      width: 400px;
+      height: 300px;
   }
 
-  b {
-    white-space: nowrap;
+  .backgroundImage {
+    position: absolute;
+    width: 400px;
+  }
+  .boyImage {
+    position: absolute;
+    width: 400px;
+    z-index: 2;
+    animation: 200s linear infinite blur;
+  }
+  .content {
+    border-radius: 40px;
+    animation: 200s linear infinite brightness;
+  }
+
+  .container-full,
+  .face {
+    align-items: center;
     overflow: hidden;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 200;
-    font-size: calc(2em + (150px / 10) * 0.7);
-    padding-top: 20px;
-    color: #fff;
   }
+  .container-full {
+    margin: 0;
+    justify-content: center;
+    transform: scale(1);
+    animation: 200s linear infinite zoom-in;
+  }
+  .cube,
+  .face {
+    width: 870px;
+    height: 190px;
+  }
+  .cube {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 480px;
+    transform-style: preserve-3d;
+    perspective-origin: 51% 70%;
+  }
+  .face,
+  .hue {
+    position: absolute;
+  }
+  .face {
+    background: 0 0;
+    border: 0 solid #000;
+    opacity: 0.5;
+  }
+  .bottom,
+  .top {
+    width: 870px;
+    height: 870px;
+  }
+  .hue {
+      top: 0;
+      left: 0;
+      z-index: 3;
+      width: 400px;
+      height: 320px;
+      mix-blend-mode: overlay;
+      background: #1e5799;
+      background: radial-gradient(ellipse at center, #1e5799 0, #7db9e8 100%);
+      opacity: 1;
+    }
+    b {
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 200;
+      font-size: calc(2em + (150px / 10) * 0.7);
+      padding-top: 20px;
+      color: #fff;
+    }
+    }
