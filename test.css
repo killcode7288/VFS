@@ -252,3 +252,12 @@ span {
     color: #ff4500;
     text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500;
   }
+
+  @media (max-width: 576px) {
+    .container-full,
+    .content {
+    
+    width: 500px;
+    height: 562px;
+}
+  }
