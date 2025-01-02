@@ -5,83 +5,202 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VFS - Ignite Your NFT Journey Now</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
-</head>
+  <link rel="stylesheet" href="test.css">
+  
+  <script src="test.js"></script>
+  <style>
+    .collection-section {
+      background-color: #1e1e1e;
+      color: #fff;
+      padding: 60px 20px;
+    }
+
+    .collection-section h2 {
+      color: #ff4500;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background-color: #2a2a2a;
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      color: #ff4500;
+      margin-bottom: 15px;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: #d6d6d6;
+      margin-bottom: 15px;
+    }
+
+    .btn-primary {
+      background-color: #ff4500;
+      border-color: #ff4500;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #e63900;
+      border-color: #e63900;
+    }
+
+    @media (max-width: 768px) {
+      .card-img-top {
+        height: 200px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .card-img-top {
+        height: 150px;
+      }
+    }
+  </style>
 <body>
-  <section class="hero-section">
-    <div class="video-overlay"></div>
-    <video autoplay muted loop playsinline class="hero-video">
-      <source src="Fire Text Animation.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <div class="hero-content text-center text-white">
-      <h1 class="display-3 glow-text">Ignite Your NFT Journey</h1>
-      <p class="lead">Fuel Your Trades with the Power of VFS</p>
-      <div class="d-flex justify-content-center mt-4">
-        <a href="#" class="btn btn-primary btn-lg me-3 fire-btn">Start Trading</a>
-        <a href="#" class="btn btn-outline-light btn-lg fire-btn-outline">Explore Marketplace</a>
+<div class=container>
+  <div class=content style=display:block;width:1000px;height:562px>
+    <div class=container-full>
+      <div class="animated hue"></div><img class=backgroundImage src="https://drive.google.com/thumbnail?id=1_ZMV_LcmUXLsRokuz6WXGyN9zVCGfAHp&sz=w1920"> <img class=boyImage src="https://drive.google.com/thumbnail?id=1eGqJskQQgBJ67myGekmo4YfIVI3lfDTm&sz=w1920">
+      <div class=container>
+        <div class=cube>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+          <div class="face left text"></div>
+          <div class="face right text"></div>
+          <div class="face front"></div>
+          <div class="face back text"></div>
+        </div>
+      </div>
+      <div class=container-reflect>
+        <div class=cube>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+          <div class="face left text"></div>
+          <div class="face right text"></div>
+          <div class="face front"></div>
+          <div class="face back text"></div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</div>
+    
 
-  <!-- Features Section -->
-  <section class="features-section py-5">
-    <div class="container text-center">
-      <h2 class="text-white mb-5">Our Features</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="feature-card">
-            <h4>Blazing Fast Transactions</h4>
-            <p>Complete your trades at the speed of light.</p>
+    <section class=" new-section statistics-section py-5">
+        <div class="container text-center text-white">
+          <h2 class="mb-4">Our Burning Stats</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="stat-number" data-target="50000">0</h3>
+              <p>Coins Traded</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="stat-number" data-target="12000">0</h3>
+              <p>Active Users</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="stat-number" data-target="1500">0</h3>
+              <p>Total NFT Sales</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="feature-card">
-            <h4>Secure as a Fire Shield</h4>
-            <p>Trade with confidence and protect your assets.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-card">
-            <h4>Rare NFT Collections</h4>
-            <p>Unlock exclusive assets glowing with value.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Statistics Section -->
-  <section class="statistics-section py-5">
-    <div class="container text-center text-white">
-      <h2 class="mb-4">Our Burning Stats</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h3 class="stat-number" data-target="50000">0</h3>
-          <p>Coins Traded</p>
+    <section class="collection-section">
+        <div class="container text-center">
+          <h2>Our Burning Collections</h2>
+          <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://worldofv.art/_next/image?url=https%3A%2F%2Fwov-images.ams3.digitaloceanspaces.com%2Fcollections%2F2da0137e-65db-4699-8311-efaa93741c6c%2Fthumbnail%2Foriginal.jpg&w=256&q=75"
+                  alt="Shredderz Collection"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h4 class="card-title">Shredderz</h4>
+                  <p class="card-text">
+                    SHREDDERZ is a 6,000-piece collection published by Virtual Flame Studios. Launched on World of V Marketplace May 21, 2022. Each SHREDDERZ may be staked for $WoV token. Thank you for your ongoing support!
+                  </p>
+                  <a href="https://worldofv.art/collection/shredderz" class="btn btn-primary mt-auto">See Collection</a>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://pfp.jpgstoreapis.com/8d5c45dbf5b7ddbae2e4936032ef7c24ed6f82eddd02d752fa041505-hero"
+                  alt="BlockBone Collection"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h4 class="card-title">Block Bones</h4>
+                  <p class="card-text">
+                    Block Bones have been exhumed from the grave and have made their way to Cardano! 6969 collectibles featuring unique traits and unrelenting personalities yearn for a wallet to call their final resting place!                  </p>
+                  <a href="https://www.jpg.store/collection/blockbones?tab=items" class="btn btn-primary mt-auto">See Collection</a>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://worldofv.art/_next/image?url=https%3A%2F%2Fwov-images.ams3.digitaloceanspaces.com%2Fcollections%2F864b1abd-6607-419e-b2c4-8f4f6276ea99%2Fthumbnail%2Foriginal.png&w=256&q=75"
+                  alt="Shredderz Collection"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h4 class="card-title">Block Bones</h4>
+                  <p class="card-text">
+                    6,969 Block Bones have been exhumed from their Cardano graves and are now making their way to VeChain! Learn more about the Bones' unique traits and unrelenting personalities at https://blockbones.io.                  </p>
+                  <a href="https://worldofv.art/collection/BlockBones?tab=onsale&page=1&query=&onlyStakeable=0" class="btn btn-primary mt-auto">See Collection</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h3 class="stat-number" data-target="12000">0</h3>
-          <p>Active Users</p>
-        </div>
-        <div class="col-md-4">
-          <h3 class="stat-number" data-target="1500">0</h3>
-          <p>Total NFT Sales</p>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
+
+
+
 
   <!-- Footer -->
-  <footer class="footer py-4 text-center text-white">
+  <!-- <footer class="footer py-4 text-center text-white">
     <div class="container">
       <p class="mb-0">© 2024 VFS. All Rights Reserved.</p>
       <p>Fuel your future with VFS NFTs.</p>
     </div>
-  </footer>
+  </footer> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="test.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
