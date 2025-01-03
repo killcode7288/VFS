@@ -331,7 +331,7 @@ span {
     overflow: hidden;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;
-    font-size: calc(2em + (100px / 10) * 0.7);
+    font-size: calc(2em + (80px / 10) * 0.7);
     padding-top: 20px;
     color: #fff;
   }
